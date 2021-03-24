@@ -1,0 +1,149 @@
+html {
+    font-size: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+body {
+    height: 100%;
+    background-image: url(img/transparent\ blue\ background\ gradient.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: -127rem;
+}
+
+.header-logo {
+    position: absolute;
+    width: 16rem;
+    height: 16rem;
+    padding: 2rem;
+    top:-6rem;
+}
+
+.header-title {
+    position: relative;
+    font-family: "Barlow", "sans-serif";
+    font-size: 4rem;
+    color:rgb(24,169,253);
+    margin: 3rem;
+    top: 12rem;
+}
+
+.header-sub {
+    position: relative;
+    font-family: "Quicksand", "sans-serif";
+    color:rgb(69,90,100);
+    font-size: 1.55rem;
+    top: 8.5rem;
+    margin: 3rem;
+}
+
+.book {
+    height: 30rem;
+    width: 30rem;
+    right: -22rem;
+    top: -5.5rem;
+    position: relative;
+}
+
+.links {
+    position: absolute;
+    top: 26rem;
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1.8rem;
+    margin-left: 6rem;
+    padding: .5rem;
+}
+
+.rent-books{
+    float: left;
+    color: rgb(119,226,162);
+}
+
+.rent-books:hover {
+    color: white;
+}
+
+.return-renew {
+    float: left;
+    margin-left: 5rem;
+    color: rgb(255,149,156);
+}
+
+.return-renew:hover {
+    color: white;
+}
+
+.chair {
+    height: 28rem;
+    width: 28rem;
+    top:-8rem;
+    left: 3rem;
+    position: relative;
+}
+
+.process {
+    position: relative;
+    left: 40rem;
+    top:-33rem;
+}
+
+.blue-1 {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    top: -24rem;
+    left: 6.5rem;
+}
+
+.yellow-2 {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    top: -18.5rem;
+    left: 1.3rem;
+}
+
+.red-3 {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    top: -13rem;
+    left: -3.9rem;
+}
+
+
+.process-title {
+    font-size: 3rem;
+    position: relative;
+    font-family: "Barlow", "sans-serif";
+    color: rgb(69,90,100);
+    
+}
+
+.process-body {
+    padding: .5rem;
+    position: relative;
+    font-family: "Quicksand", "sans-serif";
+    color: rgb(69,90,100);
+    font-size: 1.55rem;
+}
+
+.question {
+    position: relative;
+    font-family: "Quicksand", "sans-serif";
+    color: rgb(69,90,100);
+    font-size: 1.15rem;
+    left: 12rem;
+    top: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+a.contact:visited {
+    text-decoration: none;
+    color: rgb(24,169,253);
+
+}
