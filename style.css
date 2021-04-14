@@ -113,6 +113,23 @@ body {
     left: -3.9rem;
 }
 
+.med-circle {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    top: -4rem;
+    left: -28rem;
+
+}
+
+.green-circle {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    top: 0.3rem;
+    left: -28rem;
+}
+
 
 .process-title {
     font-size: 3rem;
@@ -130,6 +147,15 @@ body {
     font-size: 1.55rem;
 }
 
+.return {
+    color: rgb(255,149,156);
+}
+
+.renew {
+    color: rgb(119,226,162);
+}
+
+
 .question {
     position: relative;
     font-family: "Quicksand", "sans-serif";
@@ -137,6 +163,54 @@ body {
     font-size: 1.15rem;
     left: 12rem;
     top: 1rem;
+}
+.when {
+    position: relative;
+    left: 5rem;
+    top:-19rem;
+}
+
+.when-title {
+    font-size: 3rem;
+    position: relative;
+    font-family: "Barlow", "sans-serif";
+    color: rgb(69,90,100);
+}
+
+.when-body {
+    margin-top: .55rem;
+    position: relative;
+    font-family: "Quicksand", "sans-serif";
+    color: rgb(69,90,100);
+    font-size: 1.2rem;
+}
+.learn-more {
+    position: absolute;
+    margin-top: .5rem;
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1.2rem;
+    color: rgb(119,226,162);
+}
+.learn-more:hover {
+    color: white;
+}
+
+.proverb {
+    position: absolute;
+    margin-top: 0.1rem;
+    margin-left: 7rem;
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1rem;
+    color: rgb(119,226,162);
+}
+.quote {
+    position: absolute;
+    margin-top: 0.9rem;
+    margin-left: 7rem;
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1rem;
+    color: rgb(69,90,100, 0.3);
+
 }
 
 a:link {
